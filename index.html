@@ -30,11 +30,9 @@
       heading = document.getElementById("heading");
       heading.className = "newheading";
     }
-      </style>
-      <script language="javascript">
       function clearChange() {
         heading = document.getElementById("heading");
-        heading.className = "newheading";
+        heading.className = "";
       }
   </script>
   
@@ -54,7 +52,7 @@
             </div>
             <div class="col-12 col-md">
                 <div class="text-wrapper text-center">
-                    <h1 id="heading" onmouseover="javascript:makeChange()"  onmouseout="javascript:clearChange()" >
+                    <h1 id="heading" onmouseover="javascript:makeChange()" onmouseout="javascript:clearChange() ">
                         <strong><em>Tee Hamby Wrecker Service</em></strong></h1>
                     <p class="mbr-text mbr-fonts-style display-7">You Call, We Haul you all!</p>
                     <div class="mbr-section-btn mt-3"><a class="btn btn-secondary display-7" href="https://mobiri.se">Need a Tow? Call Bo.</a></div>
